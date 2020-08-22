@@ -216,7 +216,7 @@ class Hexagono extends PoligonoRegular{
     nombre(){ return "Hexagono"; }
 } */
 
-/*figura = new Circulo ( 100, 100, 60, "#ff9999" );
+figura = new Circulo ( 100, 100, 60, "#ff9999" );
 figura.dibuja();
 figura = new Cuadrado( 120, 40, 120, "#aaa333");
 figura.dibuja();
@@ -229,12 +229,12 @@ figura.dibuja(); */
 figura = new PoligonoRegular (100, 100, 90, 7, 30, 20,"#ff3daa");
 figura.dibuja();
 /* figura = new Hexagono(100, 100, 60, 30, "#ff3daa");
-figura.dibuja(); */
+figura.dibuja();
 
-/* 
+ 
     //Uso de Polimorfismo
 const figuras = [ new Rectangulo ( 30, 40, 23,50,"#fff222"), new Circulo(20,30, 32, "#fff111"),
     new Cuadrado(30,40, 50, "#aaa333") ];
 figuras.forEach( ( figura )=>
     figura.dibuja()
-) */
+)
